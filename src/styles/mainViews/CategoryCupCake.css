@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+.Rectangle {                          /*sets the height to all the screen*/
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #f7af9d;
+    border: 1px solid #f7af9d;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.CategoryContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    height: 16vw;
+    margin-top: 17vw;
+    z-index: 2;
+}
+
+.CakeOptionsContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    height: 11vw;
+    margin-top: 37vw;
+    z-index: 2;
+}
+
+.ListContainerRegular {
+    position: absolute;
+    width: 94vw;
+    height: 120vw;
+    margin-top: 37vw;
+    margin-left: 3vw;
+    border-radius: 15px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

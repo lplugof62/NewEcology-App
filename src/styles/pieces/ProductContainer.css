@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+.LinkDescription {
+    color: black;
+}
+
+.ProductContainer {
+    width: 43vw;
+    height: 60vw;
+    margin-top: 3vw;
+    border-radius: 30px;
+    background-color: #FFD778;
+    border: 2px solid #FFD778;
+}
+
+.ProductNameContainer {
+    position: absolute;
+    width: 40vw;
+    height: 10vw;
+    margin-top: 0vw;
+    /* margin-left: 1.5vw; */
+    text-align: center;
+}
+
+.ProductName {
+    margin-top: 2vw;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 3.5vw;
+    color: black;
+}
+
+.ProductImage {
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+    margin-top: 14vw;
+    margin-left: 6.5vw;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.CakeImage {
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+}
+
+.ProductPriceContainer {
+    position: absolute;
+    width: 40vw;
+    height: 10vw;
+    margin-top: 47vw;
+    margin-left: 1.5vw;
+}

@@ -1,0 +1,18 @@
+.HalfCircle {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    background: hsl(38, 100%, 57%);
+    border: 1px solid hsl(38, 100%, 57%);
+    border-radius: 50%;
+    margin-left: 25%;
+    margin-top: -25vw;
+    z-index: 1;
+}
+
+.logo{
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius:50% ;
+}

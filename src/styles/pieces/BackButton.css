@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+/* .ComebackContainer {
+    position: absolute;
+    width: 40vw;
+    height: 13vw;
+    margin-left: 54vw;
+    margin-top: 158vw;
+    background-color: blanchedalmond;
+    text-align: center;
+    padding-left: 5.5vw;
+    border-top-left-radius: 25px;   
+    border-bottom-left-radius: 25px;
+    box-shadow: 15px 10px 10px black;
+    border: solid 2px #FFAE23;
+}
+
+.RegresarText {
+    margin-top: 2vw;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 5vw;
+    padding-right: 32vw;
+    font-weight: bold;
+    color: black;
+} */
+.ComebackContainer {
+    position: absolute;
+    width: 37vw;
+    height: 13vw;
+    margin-left: 57vw;
+    margin-top: 158vw;
+    background-color: blanchedalmond;
+    text-align: center;
+    padding-left: 5.5vw;
+    border-top-left-radius: 25px;   
+    border-bottom-left-radius: 25px;
+    box-shadow: 15px 10px 10px black;
+    border: solid 2px #FFAE23;
+    cursor: pointer;
+}
+
+.RegresarText {
+    margin-top: 2vw;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 5vw;
+    margin-left: -15vw;
+    font-weight: bold;
+    color: black;
+}
+
+.TriangleContainer {
+    position: absolute;
+    margin-top: -6vw;
+    margin-left: 27vw;
+}
+
+.Triangle {
+    width: 0;
+    height: 0;
+    border-top: 3vw solid transparent;
+    border-left: 6vw solid black;
+    border-bottom: 3vw solid transparent;
+}

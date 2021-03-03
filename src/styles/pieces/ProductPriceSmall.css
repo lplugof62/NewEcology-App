@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+.ContainerPriceS {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 55vw;
+    background-color: rgb(255, 255, 255);
+    height: 8.5vw;
+    border-radius: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vw;
+    margin-left: -7vw;
+    border: 1.5px solid #FFAE23;
+}
+
+.ContainerCounterS {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 32vw;
+    background-color: #FFAE23;
+    height: 9.5vw;
+    border-radius: 30px;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 4vw;
+    margin-left: 25vw;
+    margin-top: -0.5vw;
+}
+
+.CircleCounterS {
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 12vw;
+    margin-top: 0.5vw;
+}
+
+.PlusCounterS {
+    margin-top: -2.5vw;
+    margin-left: 22vw;
+    font-size: 11vw;
+    color: rgb(0, 0, 0);
+}
+
+.MinusCounterS {
+    margin-top: -3vw;
+    margin-left: -22vw;
+    font-size: 11vw;
+    color: rgb(0, 0, 0);
+}
+
+.NumberCounterS {
+    margin-top: 0.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6vw;
+}
+
+.ProductPriceS {
+    margin-top: 1.5vw;
+    margin-left: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vw;
+    color: rgb(0, 0, 0);
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+.ProductData{
+    position: absolute;
+    width: 58vw;
+    height: 26vw;
+    margin-top: -26vw;
+    margin-left: 32vw;
+}
+
+.ProductName {
+    position: absolute;
+    color: black;
+    margin-left: 5vw;
+    margin-top: 1.5vw;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 4.5vw;
+}
+
+.TrashContainer {
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    margin-left: 47vw;
+    margin-top: 1vw;
+}
+
+.Trash {
+    position: absolute;
+    height: 6vw;
+    margin-left: 1.2vw;
+    /* margin-top: 1vw; */
+}
+
+.ProductoPriceContainer {
+    position: absolute;
+    width: 50vw;
+    height: 10vw;
+    margin-top: 13vw;
+    margin-left: 4vw;
+}

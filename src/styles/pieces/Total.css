@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+.BasketTotal {
+    position: absolute;
+    width: 34vw;
+    height: 9vw;
+    margin-top: 160vw;
+    margin-left: 21vw;
+    background-color: blanchedalmond;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.TotalText{
+    width: 37vw;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: black;
+    font-size: 3.5vw;
+    margin-top: 10vw;
+    font-weight: bold;
+    margin-right: 8vw;
+}

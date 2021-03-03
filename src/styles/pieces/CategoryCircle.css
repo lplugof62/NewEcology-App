@@ -1,0 +1,15 @@
+.CategoryCircle {
+    background-color:white;
+    width: 19vw;
+    height: 19vw;
+    border-radius: 50%;
+}
+
+.ImageIcon {
+    position: absolute;
+    margin-top: 1vw;
+    margin-left: 2.5vw;
+    width: 14.5vw;
+    height: 14.5vw;
+    border-radius: 10%;
+}

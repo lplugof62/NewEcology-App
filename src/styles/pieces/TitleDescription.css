@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+.ContainerTitle {
+    position: absolute;
+    width: 70vw;
+    background-color: rgb(255, 240, 201) ;
+    height: 8.5vw;
+    border-radius: 30px;
+    border: 1.5px solid rgb(255, 240, 201) ;
+    margin-top: 22vw;
+    margin-left: 15vw;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 5vw;
+    font-weight: bold;
+    padding-top: 2vw;
+    z-index: 2;
+}
