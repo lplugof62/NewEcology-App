@@ -25,4 +25,4 @@ Lorena Paola Lugo F. (https://github.com/lplugof62)
 
 Acknowledgments
 Ayuda y apoyo por parte de Sergio Sosa (https://github.com/sergioasb8) en la parte del código
-Excelente trabajo en equipo con Juliana Fajardo, Margarita Rodriguez y Juan David Martin en el desarrollo del diseño. :)
+Excelente trabajo en equipo con Juliana Fajardo, Margarita Rodriguez y Juan David Martin en el desarrollo del diseño. 
