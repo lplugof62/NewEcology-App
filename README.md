@@ -20,6 +20,12 @@ React Router - Permite la navegación entre componentes
 Contributing
 Realizar el "pull request" para ser revisado y gestionado
 
+
+
+Este proyecto tiene dos versiones, visite:
+         - Versión 1 en el link: https://newecology2.vercel.app/
+         - Versión 2 en el link: https://newecology2-lplugof62.vercel.app/
+         
 Authors
 Lorena Paola Lugo F. (https://github.com/lplugof62)
 
