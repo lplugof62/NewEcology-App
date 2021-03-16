@@ -5,7 +5,7 @@ import '../../styles/pieces/CategoryPrice.css';
 function ProductContainer (props) {
 
     const { product, onAdd, onRemove } = props;
-    let showPrice = (new Intl.NumberFormat("es-CO", { style: "currency", currency: "COP", maximumFractionDigits: 0 }).format(product.pricesmall));
+    let showPrice = (new Intl.NumberFormat("es-CO", { style: "currency", currency: "COP", maximumFractionDigits: 0, minimumFractionDigits: 0 }).format(product.pricesmall));
 
     return (
         <div className='LinkDescription'>

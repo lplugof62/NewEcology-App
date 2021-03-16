@@ -1,15 +1,11 @@
 import React from 'react';
 import '../../styles/pieces/CategoryCircle.css';
-import Image from 'react-bootstrap/Image';
+// import Image from 'react-bootstrap/Image';
 
-function CategoryCircle (props) {
+function CategoryCircle(props) {
     return (
-        <div className='CategoryCircle'>
-            <Image 
-                onClick={props.PropFunction}
-                src={props.ImgURL} 
-                alt='IconCategory' 
-                className='ImageIcon'/>
+        <div className='CategoryCircle' onClick={props.PropFunction} alt='IconCategory'>
+            <p className='CategoryName'>{props.Category}</p>
         </div>
     )
 }

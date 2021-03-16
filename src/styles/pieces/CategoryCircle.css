@@ -1,15 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+
 .CategoryCircle {
-    background-color:white;
-    width: 19vw;
-    height: 19vw;
-    border-radius: 50%;
+    background-color: #ffcf5d;
+    width: 22vw;
+    height: 9vw;
+    border-radius: 15px;
 }
 
-.ImageIcon {
+.CategoryName{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 4vw;
+    text-align: center;
+    padding-top: 1.5vw;
+    
+}
+
+
+/* .ImageIcon {
     position: absolute;
     margin-top: 1vw;
     margin-left: 2.5vw;
     width: 14.5vw;
     height: 14.5vw;
     border-radius: 10%;
-}
+} */

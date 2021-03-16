@@ -12,7 +12,7 @@ function Order(props) {
 
     const itemsPrice = carItems.reduce((a, c) => a + c.pricesmall * c.qty, 0);
 
-    let showTotal = (new Intl.NumberFormat("es-CO", { style: "currency", currency: "COP", maximumFractionDigits: 0 }).format(itemsPrice));
+    let showTotal = (new Intl.NumberFormat("es-CO", { style: "currency", currency: "COP", maximumFractionDigits: 0, minimumFractionDigits: 0 }).format(itemsPrice));
 
     let waMsj = '';
 
@@ -22,7 +22,7 @@ function Order(props) {
         //for every item in the order creates a string and adds thas string to str
         carItems.forEach(item => {
             if (item.qty !== 0) {
-                let subst = `${item.name}%20(${item.qty})%20subtotal:$${item.qty * item.pricesmall}%20`;
+                let subst = `${item.name}%20(${item.qty})%20subtotal:%20$${item.qty * item.pricesmall}%20`;
                 str += subst;
             }
         }
@@ -33,7 +33,7 @@ function Order(props) {
         waS = waS.replace(/ /g, '%20');
         ;
         //set the url with the total
-        waMsj = `${waS}%20Total%20sin%20domicilio:%20$${showTotal}`
+        waMsj = `${waS}%20Total%20sin%20domicilio:%20${showTotal}`
         //returns the url 
         return waMsj;
     }
@@ -48,7 +48,7 @@ function Order(props) {
                 <Image src={PolenIcon} alt='Bee' className='PolenImg' />
                 <div className="divCarImage">
                     <Image src={CarImage} alt='CarDomicile' className='DomicileImg' />
-                    <p className='TextDomicile'>Envíos a todo el país. valor desde $6.000 en Bogotá.
+                    <p className='TextDomicile'>Envíos a todo el país. Valor desde $6.000 en Bogotá.
                         Por compras mayores a $200.000 tu envío es completamente gratis.</p>
                 </div>
                 <div className='TotalPriceContainer'>
